@@ -28,3 +28,12 @@ else:
 f=float(input('enter the tempereture:'))
 c=5/9*(f-32)
 print('temperature in celcius',c)
+
+//CHECKING GIVEN ALPHABET VOWEL OR CONSONANT
+
+ch=input('enter an alphbet:')
+v=['a','e','i','o','u','A','E','I','O','U']
+if ch in v:
+	print('ch is an vowel')
+else:
+	print('ch is a consonant')
