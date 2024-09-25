@@ -65,3 +65,48 @@ if a%100!=0 and a%4==0:
 	print('a is a leap year')
 else:
 	print('a is not a leap year')
+
+
+
+//PATTERN PRINTING
+n=int(input("enter the value of n:"))
+i=1
+j=i+1
+for i in range(1,n+1):
+	for j in range(1,i+1):
+		print("* ",end=" ")
+	print("")
+
+
+//sum and average of digits
+
+n=int(input("enter the value of n"))
+a=[]
+for i in range(n):
+	ele=int(input("enter an element"))
+	a.append(ele)
+print(a)
+
+print(sum(a)/len(a))
+
+
+//reverse of digits
+n=int(input("enter the values of n"))
+a=[]
+for i in range(n):
+	ele=int(input("enter the values of elements"))
+	a.append(ele)
+print(a)
+a.reverse()
+print(a)
+
+
+//min and max of index
+n=int(input("enter n"))
+a=[]
+for i in range(n):
+	ele=int(input("enter elements"))
+	a.append(ele)
+print(a)
+print(a.index(max(a)))
+print(a.index(min(a)))
