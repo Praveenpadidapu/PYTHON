@@ -1,0 +1,7 @@
+a=int(input('enter a value:'))
+b=int(input('enter a value:'))
+print('addition',a+b)
+print('subtraction',a-b)
+print('multiplication',a*b)
+print('division',a/b)
+print('a to the power of b',a**b)
