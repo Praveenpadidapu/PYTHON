@@ -21,3 +21,10 @@ elif a>=50 and a<60:
 	print('E grade')
 else:
 	print('CANDIDATE IS FAILED')
+
+
+//CELCIUS TO FAREHNHEAT
+
+f=float(input('enter the tempereture:'))
+c=5/9*(f-32)
+print('temperature in celcius',c)
