@@ -33,6 +33,16 @@ print('temperature in celcius',c)
 
 ch=input('enter an alphbet:')
 v=['a','e','i','o','u','A','E','I','O','U']
+
+//EVEN OR ODD
+
+
+a=int(input('enter a value:'))
+b=a%2
+if b==1:
+	print('a is odd number')
+else:
+	print('a is even number')
 if ch in v:
 	print('ch is an vowel')
 else:
