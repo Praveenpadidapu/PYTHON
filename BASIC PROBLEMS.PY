@@ -57,3 +57,11 @@ r=float(input('enter rate of intrest:'))
 totalamount=(p*t*r)/100
 print(totalamount)
 
+
+//LEAP YEAR
+
+a=int(input('enter an year:'))
+if a%100!=0 and a%4==0:
+	print('a is a leap year')
+else:
+	print('a is not a leap year')
